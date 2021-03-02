@@ -13,20 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge
+package com.example.androiddevchallenge.utils
 
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+object Constants {
 
-class MainActivity : AppCompatActivity() {
-
-    companion object {
-        const val TAG = "MainActivity"
-        const val APP_NAME = "Adopty"
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_layout)
+    object Keys {
+        const val KEY_POSITION = "Position"
+        const val KEY_DATA = "Data"
     }
 }

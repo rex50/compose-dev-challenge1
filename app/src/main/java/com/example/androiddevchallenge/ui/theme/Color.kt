@@ -21,3 +21,40 @@ val purple200 = Color(0xFFBB86FC)
 val purple500 = Color(0xFF6200EE)
 val purple700 = Color(0xFF3700B3)
 val teal200 = Color(0xFF03DAC5)
+val red200 = Color(0xFFffcdd2)
+val pink200 = Color(0xFFF8BBD0)
+val deepPurple200 = Color(0xFFD1C4E9)
+val indigo200 = Color(0xFFC5CAE9)
+val blue200 = Color(0xFFBBDEFB)
+val lightBlue200 = Color(0xFFB3E5FC)
+val cyan200 = Color(0xFFB2EBF2)
+val green200 = Color(0xFFC8E6C9)
+val lightGreen200 = Color(0xFFDCEDC8)
+
+val lightGrey = Color(0xFF525252)
+
+object ColorsUtil {
+
+    private val colors = arrayListOf<Color>()
+        get() {
+            if (field.isEmpty()) {
+                field.addAll(
+                    arrayListOf(
+                        teal200,
+                        red200,
+                        pink200,
+                        deepPurple200,
+                        indigo200,
+                        blue200,
+                        lightBlue200,
+                        cyan200,
+                        green200,
+                        lightGreen200
+                    )
+                )
+            }
+            return field
+        }
+
+    fun getRandom(): Color = colors.random()
+}

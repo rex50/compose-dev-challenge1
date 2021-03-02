@@ -10,4 +10,17 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+
+    <string-array name="array_gradients">
+        <item>#00ff87~~#60efff</item>
+        <item>#40c9ff~~#e81cff</item>
+        <item>#ff930f~~#fff95b</item>
+        <item>#ff0f7b~~#f89b29</item>
+        <item>#696eff~~#f8acff</item>
+        <item>#f492f0~~#a18dce</item>
+        <item>#f9b16e~~#f68080</item>
+        <item>#439cfb~~#f187fb</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
+
 </resources>

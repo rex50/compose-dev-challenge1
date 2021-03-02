@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/petListFragment">
+
+    <fragment
+        android:id="@+id/petListFragment"
+        android:name="com.example.androiddevchallenge.PetListFragment"
+        android:label="PetListFragment" >
+        <action
+            android:id="@+id/viewPet"
+            app:destination="@id/petFragment"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/wait"
+            app:popEnterAnim="@anim/wait"
+            app:popExitAnim="@anim/slide_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/petFragment"
+        android:name="com.example.androiddevchallenge.PetFragment"
+        android:label="PetFragment" />
+</navigation>
