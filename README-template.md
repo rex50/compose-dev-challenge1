@@ -1,17 +1,17 @@
-# Put title of your app here
+# Adopty
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
-![Workflow result](https://github.com/<OWNER>/<REPOSITORY>/workflows/Check/badge.svg)
+![Workflow result](https://github.com/rex50/compose-dev-challenge1/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
-<!--- Describe your app in one or two sentences -->
+A puppy adoption app build with Jetpack Compose and Navigation Component. App consists of two screens **Home** and **Detail** screens. This app also supports dark theme with a dedicated **Theme switch button** in Home to switch theme.
 
 
 ## :bulb: Motivation and Context
-<!--- Optionally point readers to interesting parts of your submission. -->
-<!--- What are you especially proud of? -->
+- This project is created for participation in **Compose Dev Challenge** which demonstrates the capability of Jetpack Compose in its beta state.
+- While working on this project, I felt like using some future tools to create Android UI (I know declarative UI exists years before but it's something else when you really use in Native code).
 
 
 ## :camera_flash: Screenshots
