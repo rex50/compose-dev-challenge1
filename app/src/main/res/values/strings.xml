@@ -9,7 +9,7 @@
       or implied. See the License for the specific language governing permissions and limitations under
       the License.
       -->
-    <string name="app_name">AndroidDevChallenge</string>
+    <string name="app_name">Adopty</string>
 
     <string-array name="array_gradients">
         <item>#00ff87~~#60efff</item>
